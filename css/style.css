@@ -17,6 +17,11 @@ header > h2{
     justify-content: center;
     align-self: flex-end;
 }
+section > h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 section{
     padding: 20px 10px;
 }
