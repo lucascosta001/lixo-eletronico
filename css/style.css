@@ -28,16 +28,8 @@ section{
 section>h1{
     text-align: center;
 }
-.tabela{
+.foto{
     width: 300px;
-}
-.lixo{
-    width: 300px;
-    
-}
-.lixoDesmontado{
-    width: 300px;
-
 }
 .zero{
     background-color: floralwhite;
@@ -50,6 +42,7 @@ footer{
     align-items: flex-end;
     background-color: black;
     color: white;
+    padding: 5px;
 }
 .escola{
     width: 30px;
