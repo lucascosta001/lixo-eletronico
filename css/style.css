@@ -9,5 +9,26 @@ header{
     color: white;
     text-align: center;
     padding-top: 20px;
-    
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.459);
+}
+header > h2{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+section{
+    padding: 20px 10px;
+    height: 500px;
+}
+section>h1{
+    text-align: center;
+}
+.tabela{
+    width: 300px;
+}
+.zero{
+
+}
+.um{
+    background-color: gray;
 }
