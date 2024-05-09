@@ -65,6 +65,10 @@ p{
     text-indent: 20px;
 }
 
+ul{
+    margin: 20px;
+}
+
 footer{
     display: flex;
     justify-content: center;
