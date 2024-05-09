@@ -2,41 +2,70 @@
     margin: 0;
     padding: 0;
 }
+
 header{
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.562);
+    background-color: rgba(0, 0, 0, 0.932);
     height: 30vh;
     width: 100%;
-    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     padding-top: 20px;
-    box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.459);
+    flex-wrap: wrap;
 }
-header > h2{
-    padding-top: 10px;
+
+header > h1{
     display: flex;
     justify-content: center;
-    align-self: flex-end;
+    font-size: 1.7em;
 }
-section > h1{
+
+header > h2{
     display: flex;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
+    align-content: flex-end;
+    padding-top: 10px;
+    font-size: 1.2em;
 }
+
 section{
     padding: 20px 10px;
 }
+
 section>h1{
     text-align: center;
 }
-.foto{
-    width: 300px;
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    flex-wrap: ;
 }
+
+.foto{
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.alternativo{
+    color: pink;
+}
+
 .zero{
     background-color: floralwhite;
 }
+
 .um{
     background-color: gray;
 }
+
+p{
+    text-indent: 10px;
+}
+
 footer{
     display: flex;
     align-items: flex-end;
@@ -44,6 +73,7 @@ footer{
     color: white;
     padding: 5px;
 }
+
 .escola{
     width: 30px;
 }
